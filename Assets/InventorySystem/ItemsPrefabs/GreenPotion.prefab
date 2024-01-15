@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7948137085338215664
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_Name
+      value: GreenPotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_Name
+      value: GreenPotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000023838709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.659993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: dc618114377930f4fb2a2926e19d446c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6550199925889147610}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: dc618114377930f4fb2a2926e19d446c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2976339585877385001}
+  m_SourcePrefab: {fileID: 100100000, guid: dc618114377930f4fb2a2926e19d446c, type: 3}
+--- !u!1 &7948137085338182224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dc618114377930f4fb2a2926e19d446c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7948137085338215664}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &6550199925889147610
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7948137085338182224}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.040874
+  m_Height: 0.293224
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.146612, z: 0}
+--- !u!114 &2976339585877385001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7948137085338182224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984ceddebbc761c4a880d9666be5948a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: GreenPotion
+  itemIcon: {fileID: 21300000, guid: 8339dd0ccac10c14e917a1e280284685, type: 3}
