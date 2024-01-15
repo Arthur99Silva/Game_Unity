@@ -2046,6 +2046,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3411669511081519304, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7304119021372073102, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
       propertyPath: m_Color.a
@@ -4459,6 +4464,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7339695231144160097, guid: d81a7b2a3457f284386b5c8b59817163,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4806,6 +4816,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ItemSlot (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3411669511081519304, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7304119021372073102, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
@@ -7736,6 +7751,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 3411669511081519304, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604503573237741205, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: itemName
+      value: Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604503573237741205, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: quantity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604503573237741205, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d71b415dde535d1448b3b0732474f8ef,
+        type: 3}
     - target: {fileID: 7304119021372073102, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
       propertyPath: m_Color.a
