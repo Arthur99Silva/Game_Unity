@@ -2021,6 +2021,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 81193830}
     m_Modifications:
+    - target: {fileID: 1325130821243017899, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2943913442853869406, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
       propertyPath: m_Color.a
@@ -7721,6 +7726,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 81193830}
     m_Modifications:
+    - target: {fileID: 1325130821243017899, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2943913442853869406, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
       propertyPath: m_Sprite
@@ -7758,24 +7768,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5604503573237741205, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
+      propertyPath: isFull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604503573237741205, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
       propertyPath: itemName
       value: Potion
       objectReference: {fileID: 0}
     - target: {fileID: 5604503573237741205, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
       propertyPath: quantity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5604503573237741205, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
       propertyPath: itemSprite
       value: 
-      objectReference: {fileID: 21300000, guid: d71b415dde535d1448b3b0732474f8ef,
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909071748460364096, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304119021372073102, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304119021372073102, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7304119021372073102, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
       propertyPath: m_Color.a
-      value: 0.15686275
+      value: 0.13333334
       objectReference: {fileID: 0}
     - target: {fileID: 7304119021372073102, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
