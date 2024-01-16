@@ -132,6 +132,13 @@ namespace StarterAssets
             }
         }
 
+        public int maxHealth = 100;
+        public int currentHealth;
+
+        public HealthBar healthBar;
+
+        private bool isGamePaused = false; // Adicione esta variável para controlar o estado de pausa do jogo
+
         private void Start()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
@@ -150,16 +157,49 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+
+            currentHealth = maxHealth;
+            healthBar.SetMaxHealth(maxHealth);
+
         }
 
         private void Update()
         {
             _hasAnimator = TryGetComponent(out _animator);
 
-            JumpAndGravity();
-            GroundedCheck();
-            Move();
+            if (!isGamePaused)
+            {
+                JumpAndGravity();
+                GroundedCheck();
+                Move();
+
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                TakeDamage(10);
+            }
         }
+    }
+
+    void TakeDamage(int damage)
+    {
+    // Verifique se o jogo não está pausado antes de aplicar o dano
+        if (!isGamePaused)
+        {
+            currentHealth -= damage;
+            healthBar.SetHealth(currentHealth);
+        }
+    }
+
+    // Adicione esta função para pausar ou despausar o jogo
+    public void TogglePauseGame()
+    {
+        isGamePaused = !isGamePaused;
+
+    // Adicione aqui qualquer lógica adicional que você precisa ao pausar ou despausar o jogo
+
+    // Exemplo de pausar/despausar o tempo (opcional)
+        Time.timeScale = isGamePaused ? 0f : 1f;
+    }
 
         private void LateUpdate()
         {
