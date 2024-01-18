@@ -4495,10 +4495,35 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.000027657
       objectReference: {fileID: 0}
+    - target: {fileID: 3875273027331265332, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4384853983499624258, guid: 1cf8fba82f861e1429c7ae21f240fed7,
         type: 3}
       propertyPath: m_Name
       value: ItemSlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384241333658856240, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -739
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384241333658856240, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866878304966623773, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866878304966623773, guid: 1cf8fba82f861e1429c7ae21f240fed7,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
